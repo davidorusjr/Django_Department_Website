@@ -1,0 +1,779 @@
+{% load static %}
+<!DOCTYPE html>
+<!--
+======================
+Editted by: Members of Group 3 (ICT-323 Project 2024)
+======================
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>Home | Computer Engineering Department</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{% static 'assets/img/favicon.ico' %}" type="image/x-icon">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/39927ee039.js" crossorigin="anonymous"></script>
+    <link href="{% static 'assets/css/font-awesome.css' %}" rel="stylesheet">
+    
+    <!-- Bootstrap -->
+    <link href="{% static 'assets/css/bootstrap.css' %}" rel="stylesheet"> 
+
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/slick.css' %}">  
+            
+    <!-- Fancybox slider -->
+    <link rel="stylesheet" href="{% static 'assets/css/jquery.fancybox.css' %}" type="text/css" media="screen" /> 
+    
+    <!-- Theme color -->
+    <link id="switcher" href="{% static 'assets/css/theme-color/green-theme.css' %}" rel="stylesheet">        
+
+    <!-- Main CSS -->
+    <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">    
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,500,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+      <!--START SCROLL TOP BUTTON -->
+      <a class="scrollToTop" href="#">
+        <i class="fa fa-angle-up"></i>      
+      </a>
+    <!-- END SCROLL TOP BUTTON -->
+  <!-- Start menu -->
+  <section id="mu-menu">
+    <nav class="navbar navbar-default" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- LOGO -->             
+          <a class="navbar-brand" href="index.html"><img src="{% static 'assets/img/CEN_Web_Logo.png' %}" alt="logo"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+            <!-- HOME -->
+            <li class="active"><a href="index.html">Home</a></li>
+            <!-- ABOUT US -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="abt_us_overview.html">Overview of The Department</a></li>                
+                <li><a href="abt_us_philosophy.html">Philosophy & History of The Department</a></li> 
+                <li><a href="abt_us_admission.html">Admission and Graduation Requirements</a></li>   
+                <li><a href="#">Course Structure, Outline and Contents</a></li>            
+              </ul>
+            </li>
+            <!-- CONTACT -->                        
+            <li><a href="contact.html">Contact</a></li>                
+            <li><a href="#" id="mu-search-icon"><i class="fa fa-search"></i></a></li>
+          </ul>                     
+        </div><!--/.nav-collapse -->        
+      </div>     
+    </nav>
+  </section>
+  <!-- END MENU-->
+  <!-- START SEARCH BOX -->
+  <div id="mu-search">
+    <div class="mu-search-area">      
+      <button class="mu-search-close"><span class="fa fa-close"></span></button>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">            
+            <form class="mu-search-form">
+              <input type="search" placeholder="Type Your Keyword(s) & Hit Enter">              
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END SEARCH BOX -->
+  <!-- START SLIDER -->
+  <section id="mu-slider">
+    <!-- START SINGLE SLIDER ITEM -->
+    <div class="mu-slider-single">
+      <div class="mu-slider-img">
+        <figure>
+          <img src="{% static 'assets/img/slider/Slider-01.png' %}" alt="img">
+        </figure>
+      </div>
+      <div class="mu-slider-content">
+        <h4>Welcome To The Department of Computer Engineering</h4>
+        <span></span>
+        <h2>Leading-Edge Research and Innovation</h2>
+        <p>"We are committed to driving advancements in technology and engineering solutions through advanced research and innovation."</p>
+        <a href="abt_us_overview.html" class="mu-read-more-btn">Read More</a>
+      </div>
+    </div>
+    <!-- START SINGLE SLIDER ITEM -->
+    <div class="mu-slider-single">
+      <div class="mu-slider-img">
+        <figure>
+          <img src="{% static 'assets/img/slider/Slider-02.jpg' %}" alt="img">
+        </figure>
+      </div>
+      <div class="mu-slider-content">
+        <h4>Welcome To The Department of Computer Engineering</h4>
+        <span></span>
+        <h2>Empowering Future Innovators</h2>
+        <p>"The purpose is to provide the future generation with the essential skills and knowledge to promote innovation."</p>
+        <a href="abt_us_overview.html" class="mu-read-more-btn">Read More</a>
+      </div>
+    </div>
+    <!-- START SINGLE SLIDER ITEM -->
+    <div class="mu-slider-single">
+      <div class="mu-slider-img">
+        <figure>
+          <img src="{% static 'assets/img/slider/Slider-03.jpg' %}" alt="img">
+        </figure>
+      </div>
+      <div class="mu-slider-content">
+        <h4>Welcome To The Department of Computer Engineering</h4>
+        <span></span>
+        <h2>Launch Your Career with Prominent Industry Leaders</h2>
+        <p>"The initiative aims to provide future generations with the necessary skills and knowledge to foster innovation by partnering with prominent industry leaders."</p>
+        <a href="abt_us_overview.html" class="mu-read-more-btn">Read More</a>
+      </div>
+    </div> 
+  </section>
+  <!-- END SLIDER -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- START ABOUT US -->
+  <section id="mu-about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-about-us-area">           
+            <div class="row">
+              <div class="col-lg-6 col-md-6">
+                <div class="mu-about-us-left">
+                  <!-- START TITLE -->
+                  <div class="mu-title">
+                    <h2>ABOUT US</h2>              
+                  </div>
+                  <!-- END TITLE -->
+                  <p>The Computer Engineering programme is designed to prepare the computer engineering graduate to acquire the requisite skills in the learning, literacy and life domains.
+                  </p>
+                  <br>
+                  <p>The programme, therefore, prepares the student towards the design, analysis, and application of computers and computer based systems in the development and production of peripheral and remote devices to manage all economic sectors including services, energy, infrastructure, health, entertainment, sports and security.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="mu-about-us-right">                            
+                <a id="mu-abtus-video" href="https://www.youtube.com/embed/nhANHNUL1bw?si=nOtWcKo5uTgMRx9w" target="mutube-video">
+                  <img src="{% static 'assets/img/thumbnail-abt-us.png' %}" alt="img">
+                </a>                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END ABOUT US -->
+
+  <!-- START ABOUT US COUNTER-->
+  <section id="mu-abtus-counter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-abtus-counter-area">
+            <div class="row">
+              <!-- Start counter item -->
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="mu-abtus-counter-single">
+                  <span class="fa-solid fa-book"></span>
+                  <h4 class="counter">200</h4>
+                  <p>Total Units</p>
+                </div>
+              </div>
+              <!-- End counter item -->
+              <!-- Start counter item -->
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="mu-abtus-counter-single">
+                  <span class="fa fa-users"></span>
+                  <h4 class="counter">300</h4>
+                  <p>+ Students</p>
+                </div>
+              </div>
+              <!-- End counter item -->
+              <!-- Start counter item -->
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="mu-abtus-counter-single">
+                  <span class="fa-solid fa-calendar-days"></span>
+                  <h4 class="counter">5</h4>
+                  <p>Year Programme</p>
+                </div>
+              </div>
+              <!-- End counter item -->
+              <!-- Start counter item -->
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="mu-abtus-counter-single no-border">
+                  <span class="fa-solid fa-user-tie"></span>
+                  <h4 class="counter">31</h4>
+                  <p>+ Department Staff</p>
+                </div>
+              </div>
+              <!-- End counter item -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END ABOUT US COUNTER SECTION -->
+
+  <!-- START FEATURES SECTION -->
+  <section id="mu-features">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="mu-features-area">
+            <!-- START TITILE -->
+            <div class="mu-title">
+              <h2>AREAS OF SPECIALISATION</h2>
+              <p>The Computer Engineering Programme offers courses in Computation, Computer Science, and Electrical and Electronics Engineering, preparing graduates with fundamental knowledge to analyze technical problems, apply hardware and software, and manage complex computer-based technologies.
+              </p>
+            </div>
+            <!-- END TITLE-->
+            <!-- START CONTENT -->
+            <div class="mu-features-content">
+              <div class="row">
+                <div class="col-lg-4 col-md-4  col-sm-6">
+                  <div class="mu-single-feature">
+                    <span class="fa-solid fa-brain"></span>
+                    <h4>Artificial Intelligence</h4>
+                    <p>Developing computers that simulate human learning and reasoning abilities.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="mu-single-feature">
+                    <span class="fa-solid fa-sitemap"></span>
+                    <h4>Computer Architecture </h4>
+                    <p>Designing new computer instruction sets and combining electronic or optical components to yield powerful computing systems.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="mu-single-feature">
+                    <span class="fa-solid fa-microchip"></span>
+                    <h4>Computer Design and Engineering</h4>
+                    <p>Designing new computer circuits, microchip, and other electronic computer components and devices.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="mu-single-feature">
+                    <span class="fa-solid fa-computer"></span>
+                    <h4>Computer Theory </h4>
+                    <p>Investigating the fundamental theories of how computers solve problems, and applying the results to other areas of computer engineering.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="mu-single-feature">
+                    <span class="fa-solid fa-code"></span>
+                    <h4>Software Engineering</h4>
+                    <p>Developing computer algorithms for the solving complex problems of computation and analysis using different data forms.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="mu-single-feature">
+                    <span class="fa-solid fa-robot"></span>
+                    <h4>Robotics</h4>
+                    <p>Designing computers controlled machines or robots for performing high-precision and high speed repetitive industrial tasks and processes.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="mu-single-feature">
+                    <span class="fa-brands fa-windows"></span>
+                    <h4>Operating Systems and Networks</h4>
+                    <p>Developing fundamental software that allows computers to self-manage and communicate with gadgets, humans, and the environment.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="mu-single-feature">
+                    <span class="fa-solid fa-laptop"></span>
+                    <h4>Information Technology</h4>
+                    <p>Developing and administering systems for high-speed data handling, storage, and retrieval in organisations.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="mu-single-feature">
+                    <span class="fa-solid fa-lightbulb"></span>
+                    <h4>Software Applications </h4>
+                    <p>Developing software to solve problems in multiple areas such as education, finance, space, medicine, infrastructure, etc.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- END CONTENT -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END AREAS OF SPECIALISATION -->
+
+  <!-- START STUDENT PROJECT SHOWREEL SECTION -->
+   <!-- THIS SECTION WAS FORMERLY "LATEST COURSES". IT HAS BEEN REPURPOSED-->
+  <section id="mu-latest-courses">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="mu-latest-courses-area">
+            <!-- START TITLE -->
+            <div class="mu-title">
+              <h2>Student Projects Showreel</h2>
+              <p>Our students are at the forefront of technology. From smart systems to cutting-edge robots, their ideas showcase creativity, technological proficiency, and the future of engineering. Explore a selection of remarkable student-led ideas below.</p>
+            </div>
+            <!-- END TITLE -->
+            <!-- START PROJECT SHOWREEL CONTENT-->
+            <div id="mu-latest-course-slide" class="mu-latest-courses-content">
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single">
+                  <figure class="mu-latest-course-img">
+                    <a href="#"><img src="{% static 'assets/img/courses/project-1.jpg' %}" alt="img"></a>
+                    <figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">IoT & Automation</a>
+                    </figcaption>
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><a href="#">Smart Bin</a></h4>
+                    <p>Smart Bin is a waste management system that optimises urban garbage collection by monitoring waste levels and signalling bin emptying via IoT.</p>
+                    <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#">Details</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single">
+                  <figure class="mu-latest-course-img">
+                    <a href="#"><img src="{% static 'assets/img/courses/project-2.jpg' %}" alt="img"></a>
+                    <figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">Artificial Intelligence</a>
+                    </figcaption>
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><a href="#">AI Tutor Mate</a></h4>
+                    <p>AI Tutor Mate is an AI-powered platform that customizes educational content based on a student's learning progress, ensuring personalized learning and maximum retention.</p>
+                    <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#">Details</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single">
+                  <figure class="mu-latest-course-img">
+                    <a href="#"><img src="{% static 'assets/img/courses/project-3.jpg' %}" alt="img"></a>
+                    <figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">Hardware Prototyping</a>
+                    </figcaption>
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><a href="#">Circuit Crafter.</a></h4>
+                    <p>Circuit Crafter is a platform for creating and simulating custom electronic circuits. It enables real-time testing of designs, saving time and resources..</p>
+                    <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#">Details</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single">
+                  <figure class="mu-latest-course-img">
+                    <a href="#"><img src="{% static 'assets/img/courses/project-4.jpg' %}" alt="img"></a>
+                    <figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">Artificial Intelligence</a>
+                    </figcaption>
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><a href="#">Neuro Assist</a></h4>
+                    <p>The AI-based Neuro Assist technology analyses medical pictures using deep learning algorithms to help clinicians diagnose brain MRI abnormalities faster and more accurately.</p>
+                    <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#">Details</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single">
+                  <figure class="mu-latest-course-img">
+                    <a href="#"><img src="{% static 'assets/img/courses/project-5.jpg' %}" alt="img"></a>
+                    <figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">IoT & Data Science</a>
+                    </figcaption>
+                  </figure>
+                  <!---->
+                  <div class="mu-latest-course-single-content">
+                    <h4><a href="#">Smart Grid Monitor.</a></h4>
+                    <p>Smart Grid Monitor is a system that optimizes power distribution in smart grids using IoT and real-time analytics, ensuring energy efficiency and minimal downtime.</p>
+                    <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#">Details</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single">
+                  <figure class="mu-latest-course-img">
+                    <a href="#"><img src="{% static 'assets/img/courses/project-6.jpg' %}" alt="img"></a>
+                    <figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">Cybersecurity</a>
+                    </figcaption>
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><a href="#">Cyber Sentinel</a></h4>
+                    <p>Cyber Sentinel is an AI-powered intrusion detection system that identifies and mitigates potential cyberattacks in real-time for enterprise networks.</p>
+                    <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#">Details</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- END PROJECT SHOWREEL CONTENT -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END STUDENT PROJECT SHOWREEL SECTION -->
+
+  <!-- START DEPARTMENT OFFICIALS -->
+  <!--THIS SECTION WAS FORMERLY "OUR TEACHER". IT HAS BEEN REPURPOSED TO DEPARTMENT OFFICIALS -->
+  <section id="mu-our-teacher">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-our-teacher-area">
+            <!-- START TITLE -->
+            <div class="mu-title">
+              <h2 >DEPARTMENT OFFICIALS</h2>
+              <p>Our outstanding leadership team is committed to expanding education, encouraging innovation, and guiding the institution towards engineering success in the future.</p>
+            </div>
+            <!-- END TITLE -->
+            <!-- START DEPARTMENT OFFICIALS CONTENT -->
+            <div class="mu-our-teacher-content">
+              <div class="row">
+                <div class="col-lg-3 col-md-3  col-sm-6">
+                  <div class="mu-our-teacher-single">
+                    <figure class="mu-our-teacher-img">
+                      <img src="{% static 'assets/img/teachers/prof-fayomi.png' %}" alt="Prof. Ojo Sunday Fayomi">
+                      <div class="mu-our-teacher-social">
+                        <a href="https://www.linkedin.com/in/prof-ojo-sunday-fayomi-47a012210/?originalSubdomain=ng"><span class="fa fa-linkedin"></span></a>
+                      </div>
+                    </figure>                    
+                    <div class="mu-ourteacher-single-content">
+                      <h4>Engr. Professor Ojo Sunday Fayomi <br> R.E. (COREN), MNSE</h4>
+                      <span>Dean of Engineering and Chairman of College Board</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                  <div class="mu-our-teacher-single">
+                    <figure class="mu-our-teacher-img">
+                      <img src="{% static 'assets/img/teachers/engr-elegbede.png' %}" alt="Engr. Elegbede Adedayo">
+                      <div class="mu-our-teacher-social">
+                        <a href="https://www.linkedin.com/in/elegbede-adedayo-565b3530/?originalSubdomain=ng"><span class="fa fa-linkedin"></span></a>
+                      </div>
+                    </figure>                    
+                    <div class="mu-ourteacher-single-content">
+                      <h4>Engr. Elegbede Adedayo <br> R.E. (COREN), MNSE</h4>
+                      <span>Head of Department of Computer Engineering</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                  <div class="mu-our-teacher-single">
+                    <figure class="mu-our-teacher-img">
+                      <img src="{% static 'assets/img/teachers/engr-olukoya.png' %}" alt="Engr. Bamidele Olukoya ">
+                      <div class="mu-our-teacher-social">
+                        <a href="https://www.linkedin.com/in/bamidele-olukoya-bbab101b6/"><span class="fa fa-linkedin"></span></a>
+                      </div>
+                    </figure>                    
+                    <div class="mu-ourteacher-single-content">
+                      <h4>Engr. Bamidele Olukoya <br> R.E. (COREN), MNSE</h4>
+                      <span>Examination Officer</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                  <div class="mu-our-teacher-single">
+                    <figure class="mu-our-teacher-img">
+                      <img src="{% static 'assets/img/teachers/mr-odunayo.png' %}" alt="Mr. Odunayo Olabode">
+                      <div class="mu-our-teacher-social">
+                        <a href="https://www.linkedin.com/in/olabode-odunayo-58453b16a/?originalSubdomain=ng"><span class="fa fa-linkedin"></span></a>
+                      </div>
+                    </figure>                    
+                    <div class="mu-ourteacher-single-content">
+                      <h4>Mr. Odunayo Olabode <br> OND, SSCE</h4>
+                      <span>Data Entry Operator/Secretary</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <!-- END DEPARTMENT OFFICIALS CONTENT -->           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END DEPARTMENT OFFICIALS SECTION -->
+
+  <!-- START TESTIMONAL SECTION  -->
+  <section id="mu-testimonial">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-testimonial-area">
+            <div id="mu-testimonial-slide" class="mu-testimonial-content">
+              <!-- START TESTIMONIAL SINGLE ITEM -->
+              <div class="mu-testimonial-item">
+                <div class="mu-testimonial-quote">
+                  <blockquote>
+                    <p>The Computer Engineering curriculum offered a comprehensive blend of theory and practical experience, with helpful teachers and top-notch facilities, resulting in a successful IT career.
+                    </p>
+                  </blockquote>
+                </div>
+                <div class="mu-testimonial-img">
+                  <img src="{% static 'assets/img/testimonial/Obinze.png' %}" alt="img">
+                </div>
+                <div class="mu-testimonial-info">
+                  <h4>Obinze</h4>
+                  <span>Computer Engineering Graduate</span>
+                </div>
+              </div>
+              <!-- END TESTIMONIAL SINGLE ITEM -->
+              <!-- START TESTIMONIAL SINGLE ITEM -->
+              <div class="mu-testimonial-item">
+                <div class="mu-testimonial-quote">
+                  <blockquote>
+                    <p>The curriculum provided me with the necessary skills and confidence to succeed. The practical projects prepared me for real-world issues, and I am glad to be an alumnus.</p>
+                  </blockquote>
+                </div>
+                <div class="mu-testimonial-img">
+                  <img src="{% static 'assets/img/testimonial/Adetola.png' %}" alt="img">
+                </div>
+                <div class="mu-testimonial-info">
+                  <h4>Adetola</h4>
+                  <span>Computer Engineering Graduate</span>
+                </div>
+              </div>
+              <!-- END TESTIMONIAL SINGLE ITEM -->
+              <!-- START TESTIMONIAL SINGLE ITEM -->
+              <div class="mu-testimonial-item">
+                <div class="mu-testimonial-quote">
+                  <blockquote>
+                    <p>I really enjoyed the programme. It prepared me for the tech industry.</p>
+                  </blockquote>
+                </div>
+                <div class="mu-testimonial-img">
+                  <img src="{% static 'assets/img/testimonial/Nneoma.png' %}" alt="img">
+                </div>
+                <div class="mu-testimonial-info">
+                  <h4>Nneoma</h4>
+                  <span>Computer Engineering Graduate</span>
+                </div>
+              </div>
+              <!-- END TESTIMONIAL SINGLE ITEM -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END TESTIMONIAL SECTION -->
+
+  <!-- START NEWS -->
+  <section id="mu-from-blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-from-blog-area">
+            <!-- START TITLE -->
+            <div class="mu-title">
+              <h2>News</h2>
+              <p>Stay up to speed on the latest news, discoveries, and events from the Computer Engineering Department. Learn about how our students, staff, and alumni are impacting the future of technology.</p>
+            </div>
+            <!-- END TITLE -->  
+            <!-- START NEWS CONTENT   -->
+            <div class="mu-from-blog-content">
+              <div class="row">
+                <div class="col-md-4 col-sm-4">
+                  <article class="mu-blog-single-item">
+                    <figure class="mu-blog-single-img">
+                      <a href="https://www.bellsuniversity.edu.ng/resumption-protocol-for-all-students-after-the-christmas-and-new-year-break-2025/"><img src="{% static 'assets/img/blog/News_1.png' %}" alt="img"></a>
+                      <figcaption class="mu-blog-caption">
+                        <h3><a href="https://www.bellsuniversity.edu.ng/resumption-protocol-for-all-students-after-the-christmas-and-new-year-break-2025/">Resumption Protocol for all Students after the Christmas and New Year break [2025]</a></h3>
+                      </figcaption>                      
+                    </figure>
+                    <div class="mu-blog-meta">
+                      <a href="#">By Admin</a>
+                      <a href="#">19 Dec 2024</a>
+                    </div>
+                    <div class="mu-blog-description">
+                      <p>This is to inform all our students that the resumption date after the...</p>
+                      <a class="mu-read-more-btn" href="https://www.bellsuniversity.edu.ng/resumption-protocol-for-all-students-after-the-christmas-and-new-year-break-2025/">Read More</a>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                  <article class="mu-blog-single-item">
+                    <figure class="mu-blog-single-img">
+                      <a href="https://www.bellsuniversity.edu.ng/bellstech-university-of-technology-moves-up-41-in-the-times-higher-education-ranking/"><img src="{% static 'assets/img/blog/News_2.png' %}" alt="img"></a>
+                      <figcaption class="mu-blog-caption">
+                        <h3><a href="https://www.bellsuniversity.edu.ng/bellstech-university-of-technology-moves-up-41-in-the-times-higher-education-ranking/">Bells University of Technology Moves Up to 41 in the Times Higher Education Ranking</a></h3>
+                      </figcaption>                      
+                    </figure>
+                    <div class="mu-blog-meta">
+                      <a href="#">By Admin</a>
+                      <a href="#">28 Nov 2024</a>
+                    </div>
+                    <div class="mu-blog-description">
+                      <p>Bells University of Technology, Ota, has achieved another milestone...</p>
+                      <a class="mu-read-more-btn" href="https://www.bellsuniversity.edu.ng/bellstech-university-of-technology-moves-up-41-in-the-times-higher-education-ranking/">Read More</a>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                  <article class="mu-blog-single-item">
+                    <figure class="mu-blog-single-img">
+                      <a href="https://www.bellsuniversity.edu.ng/college-of-engineering-holds-11th-college-lecture-and-international-conference/"><img src="{% static 'assets/img/blog/News_3.jpg' %}" alt="img"></a>
+                      <figcaption class="mu-blog-caption">
+                        <h3><a href="https://www.bellsuniversity.edu.ng/college-of-engineering-holds-11th-college-lecture-and-international-conference/">College of Engineering holds 11th College Lecture and International Conference</a></h3>
+                      </figcaption>                      
+                    </figure>
+                    <div class="mu-blog-meta">
+                      <a href="#">By Admin</a>
+                      <a href="#">19 Nov 2024</a>
+                    </div>
+                    <div class="mu-blog-description">
+                      <p>Best ways and methods to explore Scientific and Technological Skills..</p>
+                      <a class="mu-read-more-btn" href="https://www.bellsuniversity.edu.ng/college-of-engineering-holds-11th-college-lecture-and-international-conference/">Read More</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>     
+            <!-- END NEWS CONTENT -->   
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End NEWS SECTION -->
+
+  <!-- START FOOTER -->
+  <footer id="mu-footer">
+    <!-- start footer top -->
+    <div class="mu-footer-top">
+      <div class="container">
+        <div class="mu-footer-top-area">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>Quick Links</h4>
+                <ul>
+                  <li><a href="https://portal.bellsuniversity.edu.ng/payments/">Bellstech Payment Portal</a></li>
+                  <li><a href="https://portal.bellsuniversity.edu.ng/">Undergraduate Registration Portal</a></li>
+                  <li><a href="https://portal.bellsuniversity.edu.ng/postgraduate/">Postgraduate Registration Portal</a></li>
+                  <li><a href="https://www.bellsuniversity.edu.ng/academic-calendar/">Academic Calendar</a></li>
+                  <li><a href="https://www.bellsuniversity.edu.ng/admissions/schools-fees/">Fees Structure</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+              <!--
+                <h4>Student Help</h4>
+                <ul>
+                  <li><a href="">Get Started</a></li>
+                  <li><a href="#">My Questions</a></li>
+                  <li><a href="">Download Files</a></li>
+                  <li><a href="">Latest Course</a></li>
+                  <li><a href="">Academic News</a></li>                  
+                </ul>
+              -->
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>News letter</h4>
+                <p>Get latest updates, news & academic offers</p>
+                <form class="mu-subscribe-form">
+                  <input type="email" placeholder="Type your Email">
+                  <button class="mu-subscribe-btn" type="submit">Subscribe!</button>
+                </form>               
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>GET IN TOUCH</h4>
+                <address>
+                  <p>The Registrar, Bells University of Technology, Ota, Ogun State</p>
+                  <p>08139327665</p>
+                  <p>info@bellsuniversity.edu.ng</p>
+                  <p>Mon — Fri: 8:00 AM — 5:00 PM (GMT+1)</p>
+                </address>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END FOOTER TOP -->
+    <!-- START FOOTER BOTTOM-->
+    <div class="mu-footer-bottom">
+      <div class="container">
+        <div class="mu-footer-bottom-area">
+          <p>&copy; All Right Reserved. Group 3 ICT-323 GROUP PROJECT 2024</p>
+        </div>
+      </div>
+    </div>
+    <!-- END FOOTER BOTTOM -->
+  </footer>
+  <!-- END FOOTER SECTION -->
+  
+  <!-- jQuery library -->
+  <script src="{% static 'assets/js/jquery.min.js' %}"></script>  
+
+  <script src="{% static 'assets/js/bootstrap.js' %}"></script>   
+
+  <!-- Slick slider -->
+  <script type="text/javascript" src="{% static 'assets/js/slick.js' %}"></script>
+
+  <!-- Counter -->
+  <script type="text/javascript" src="{% static 'assets/js/waypoints.js' %}"></script>
+  <script type="text/javascript" src="{% static 'assets/js/jquery.counterup.js' %}"></script>  
+
+  <!-- Mixit slider -->
+  <script type="text/javascript" src="{% static 'assets/js/jquery.mixitup.js' %}"></script>
+
+  <!-- Add fancyBox -->        
+  <script type="text/javascript" src="{% static 'assets/js/jquery.fancybox.pack.js' %}"></script>
+  
+  <!-- Custom js -->
+  <script src="{% static 'assets/js/custom.js' %}"></script> 
+
+  </body>
+</html>

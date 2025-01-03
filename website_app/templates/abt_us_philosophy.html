@@ -1,0 +1,237 @@
+{% load static %}
+<!DOCTYPE html>
+<!--
+======================
+Editted by: Members of Group 3 (ICT-323 Project 2024)
+======================
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>About Us | Computer Engineering Department</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{% static 'assets/img/favicon.ico' %}" type="image/x-icon">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/39927ee039.js" crossorigin="anonymous"></script>    
+    <link href="{% static 'assets/css/font-awesome.css' %}" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="{% static 'assets/css/bootstrap.css' %}" rel="stylesheet">   
+
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/slick.css' %}">          
+
+    <!-- Fancybox slider -->
+    <link rel="stylesheet" href="{% static 'assets/css/jquery.fancybox.css' %}" type="text/css" media="screen" /> 
+
+    <!-- Theme color -->
+    <link id="switcher" href="{% static 'assets/css/theme-color/green-theme.css' %}" rel="stylesheet">  
+
+    <!-- Main style sheet -->
+    <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">    
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,500,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,500,700' rel='stylesheet' type='text/css'>
+  
+  </head>
+  <body>
+  <!--START SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#">
+      <i class="fa fa-angle-up"></i>      
+    </a>
+  <!-- END SCROLL TOP BUTTON -->
+  <!-- START MENU -->
+  <section id="mu-menu">
+    <nav class="navbar navbar-default" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- LOGO -->              
+          <a class="navbar-brand" href="index.html"><img src="{% static 'assets/img/CEN_Web_Logo.png' %}" alt="logo"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+            <!-- HOME -->
+            <li><a href="index.html">Home</a></li> 
+            <!-- ABOUT US -->  
+            <li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="abt_us_overview.html">Overview of The Department</a></li>                
+                <li><a href="abt_us_philosophy.html">Philosophy & History of The Department</a></li> 
+                <li><a href="abt_us_admission.html">Admission and Graduation Requirements</a></li>   
+                <li><a href="#">Course Structure, Outline and Contents</a></li>            
+              </ul>
+            </li>      
+            <!-- CONTACT -->      
+            <li><a href="contact.html">Contact</a></li>
+                           
+            <li><a href="#" id="mu-search-icon"><i class="fa fa-search"></i></a></li>
+          </ul>                     
+        </div><!--/.nav-collapse -->        
+      </div>     
+    </nav>
+  </section>
+  <!-- END MENU-->
+  <!-- START SEARCH BOX -->
+  <div id="mu-search">
+    <div class="mu-search-area">      
+      <button class="mu-search-close"><span class="fa fa-close"></span></button>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">            
+            <form class="mu-search-form">
+              <input type="search" placeholder="Type Your Keyword(s) & Hit Enter">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END SEARC BOX-->
+ <!-- PAGE BREADCRUMB -->
+ <section id="mu-page-breadcrumb">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-12">
+         <div class="mu-page-breadcrumb-area">
+           <h2>DEPARTMENT OF COMPUTER ENGINEERING</h2>
+           <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>            
+            <li class="active">History and Philosophy</li>
+          </ol>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ <!-- END BREADCRUMB-->
+<!-- START PHILOSOPHY SECTION -->
+<section id="mu-philosophy">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="mu-philosophy-area">
+          <h2>Philosophy</h2>
+          <p>
+            The general philosophy of the Computer Engineering is to produce graduates with hard, soft and research skills that are useful in analyzing, evaluating, designing, developing, manufacturing, procuring, marketing, managing and maintaining the computing, electronics, communication, information processing, and operating systems embedded in computer hardware and devices used by individuals, and private and public organizations.
+          </p>
+          <br>
+          <h2>History of The Computer Engineering Degree Programme</h2>
+          <p>
+            History of Computer Engineering Degree Programme The Department is an academic and administrative unit with the Head of Department being responsible for coordinating, guiding and supervising teaching and research in the Department. The Computer Engineering programme started in September 2009 (2009/2010 academic session). It was housed in the Department of Electrical/Electronics and Computer Engineering in the College of Engineering of the University up till August 2021 when the Department was unbundled. The Department of Computer Engineering was carved out and has been a stand-alone Department in the last two sessions thus far. The Department of Computer Engineering runs a five year undergraduate degree programme consisting of ten (10) semesters that lead to the award of Bachelor of Engineering (B.Eng.) in Computer Engineering. In the first two semesters, the students are engaged in the College of Natural Sciences, where they learn courses related to fundamentals of basic sciences and general mathematics. During the same duration, they also undertake courses in engineering graphics.
+            <br><br>
+            Subsequently, upon completion of the two semesters, successful students with Cumulative Grade Point Average (CGPA) of at least 2.0 and not more than the stipulated carryover units proceed to the 200 Level where they are introduced to the general engineering courses. The 200 Level culminates into an eight-week Student Work Experience Programme (SWEP) while the last six semesters are for core Computer Engineering courses. The structure of Computer Engineering courses as taught in Bells University is such that the students are introduced to and engaged in the core curriculum set out by the Benchmark Academic Standard (BMAS) of both the National Universities Commission (NUC) and the Council for the Regulation of Engineering in Nigeria (COREN). Sometimes additional courses are added to the courses suggested by the BMAS in such a way as to facilitate a total Computer Engineering graduate that is up-to-date with the current global advancement drive. The Department graduated its first set of graduates in the 2013/2014 academic session. As at 2022/2023, the department has produced ten (10) sets of graduates.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- END PHILOSOPHY SECTION -->
+  <!-- START FOOTER -->
+  <footer id="mu-footer">
+    <!-- start footer top -->
+    <div class="mu-footer-top">
+      <div class="container">
+        <div class="mu-footer-top-area">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>Quick Links</h4>
+                <ul>
+                  <li><a href="https://portal.bellsuniversity.edu.ng/payments/">Bellstech Payment Portal</a></li>
+                  <li><a href="https://portal.bellsuniversity.edu.ng/">Undergraduate Registration Portal</a></li>
+                  <li><a href="https://portal.bellsuniversity.edu.ng/postgraduate/">Postgraduate Registration Portal</a></li>
+                  <li><a href="https://www.bellsuniversity.edu.ng/academic-calendar/">Academic Calendar</a></li>
+                  <li><a href="https://www.bellsuniversity.edu.ng/admissions/schools-fees/">Fees Structure</a></li>
+                </ul>
+              </div>
+            </div>         
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+              <!--
+                <h4>Student Help</h4>
+                <ul>
+                  <li><a href="">Get Started</a></li>
+                  <li><a href="#">My Questions</a></li>
+                  <li><a href="">Download Files</a></li>
+                  <li><a href="">Latest Course</a></li>
+                  <li><a href="">Academic News</a></li>                  
+                </ul>
+              -->
+              </div>
+            </div>    
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>News letter</h4>
+                <p>Get latest update, news & academic offers</p>
+                <form class="mu-subscribe-form">
+                  <input type="email" placeholder="Type your Email">
+                  <button class="mu-subscribe-btn" type="submit">Subscribe!</button>
+                </form>               
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>GET IN TOUCH</h4>
+                <address>
+                  <p>The Registrar, Bells University of Technology, Ota, Ogun State</p>
+                  <p>08139327665</p>
+                  <p>info@bellsuniversity.edu.ng</p>
+                  <p>Mon — Fri: 8:00 AM — 5:00 PM (GMT+1)</p>
+                </address>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END FOOTER TOP -->
+    <!-- START FOOTER BOTTOM -->
+    <div class="mu-footer-bottom">
+      <div class="container">
+        <div class="mu-footer-bottom-area">
+          <p>&copy; All Right Reserved. Group 3 ICT-323 GROUP PROJECT 2024</p>
+        </div>
+      </div>
+    </div>
+    <!-- END FOOTER BOTTOM -->
+  </footer>
+  <!-- END FOOTER -->
+
+  <!-- jQuery library -->
+  <script src="{% static 'assets/js/jquery.min.js' %}"></script>  
+  <script src="{% static 'assets/js/bootstrap.js' %}"></script>   
+
+  <!-- Slick slider -->
+  <script type="text/javascript" src="{% static 'assets/js/slick.js' %}"></script>
+
+  <!-- Counter -->
+  <script type="text/javascript" src="{% static 'assets/js/waypoints.js' %}"></script>
+  <script type="text/javascript" src="{% static 'assets/js/jquery.counterup.js' %}"></script>  
+
+  <!-- Mixit slider -->
+  <script type="text/javascript" src="{% static 'assets/js/jquery.mixitup.js' %}"></script>
+
+  <!-- Add fancyBox -->        
+  <script type="text/javascript" src="{% static 'assets/js/jquery.fancybox.pack.js' %}"></script>
+
+  <!-- Custom js -->
+  <script src="{% static 'assets/js/custom.js' %}"></script> 
+
+  </body>
+</html>
