@@ -6,22 +6,20 @@ This project is a web-based platform for the Department of Computer Engineering,
 
 FEATURES
 --------
-Homepage:
+Homepage:  
 Provides a welcoming introduction that emphasizes the department goals, philosophy, achievements, officials, etc
-
-About US page
-Overview of Department page:
-____________________________
+________________________________________________________________________________________________________________
+OVERVIEW OF DEPARTMENT PAGE:  
 Provides an overview of the department, highlighting its strengths and course features.
 _______________________________________________________________________________________
-Philosophy and History of Department page:
+PHILOSOPHY AND HISTORY OF DEPARTMENT PAGE:  
 Provides the information on the reasoning behind the department as well as the history of how the the department came to exist.
 ________________________________________________________________________________________________________________________________
-Admission and Graduation Requirements:
+ADMISSION AND GRADUATION REQUIREMENT PAGE:  
 his page aims to assist the prospective student on information relevant to their successful admission to the college.
 ________________________________________________________________________________________________________________________________
-Contact page:
-Provides a contact form that allows visitors to reach the department directly via e-mail.
+CONTACT PAGE:  
+Provides a contact form that allows visitors to reach the department directly via e-mail.  
 Contains a Google map integration that displays the location of the university.
 ________________________________________________________________________________________________________________________________
 
