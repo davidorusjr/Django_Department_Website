@@ -34,11 +34,11 @@ ______________________________________
 
 CONTRIBUTORS
 ------------
-DAVID ORUS JR (https://github.com/davidorusjr)
-AMAH PAUL (https://github.com/ADE3681)
-EMMANUEL DESTINY (https://github.com/Destyne321)
-OKPAMEN JEFFREY (https://github.com/Jeff-0517)
-ADEYEMI SAMUEL (https://github.com/Bigsam0100)  
+DAVID ORUS JR (https://github.com/davidorusjr)  
+AMAH PAUL (https://github.com/ADE3681)  
+EMMANUEL DESTINY (https://github.com/Destyne321)  
+OKPAMEN JEFFREY (https://github.com/Jeff-0517)  
+ADEYEMI SAMUEL (https://github.com/Bigsam0100)    
 ______________________________________________
 
 IMAGES
