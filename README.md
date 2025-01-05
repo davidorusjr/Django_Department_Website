@@ -31,3 +31,14 @@ ______________________________________
 Backend:
 Django 5.1
 ______________________________________
+
+IMAGES
+------
+[home-page](https://github.com/user-attachments/assets/21a4dcc8-914e-45b7-b694-600333869557)  
+[contact-page](https://github.com/user-attachments/assets/4e66d99c-7f8a-4717-aa3e-074f10682453)  
+[overview-page](https://github.com/user-attachments/assets/efa63d39-4fc4-4799-978f-fdf3185f61ad)  
+[admission_page](https://github.com/user-attachments/assets/0adef1da-db65-4850-8a87-8c486f794efa)  
+[phil-and-hist-page](https://github.com/user-attachments/assets/40921cd5-1ef1-472c-8af5-48f110221959)
+
+
+
