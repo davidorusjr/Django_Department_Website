@@ -32,6 +32,15 @@ Backend:
 Django 5.1
 ______________________________________
 
+CONTRIBUTORS
+------------
+DAVID ORUS JR (https://github.com/davidorusjr)
+AMAH PAUL (https://github.com/ADE3681)
+EMMANUEL DESTINY (https://github.com/Destyne321)
+OKPAMEN JEFFREY (https://github.com/Jeff-0517)
+ADEYEMI SAMUEL (https://github.com/Bigsam0100)  
+______________________________________________
+
 IMAGES
 ------
 [home-page](https://github.com/user-attachments/assets/21a4dcc8-914e-45b7-b694-600333869557)  
