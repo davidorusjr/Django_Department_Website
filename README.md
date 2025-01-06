@@ -34,7 +34,7 @@ ______________________________________
 
 CONTRIBUTORS
 ------------
-DAVID ORUS JR (https://github.com/davidorusjr)  
+DAVID ORUS JR  (https://github.com/davidorusjr)  
 AMAH PAUL (https://github.com/ADE3681)  
 EMMANUEL DESTINY (https://github.com/Destyne321)  
 OKPAMEN JEFFREY (https://github.com/Jeff-0517)  
